@@ -348,7 +348,7 @@ func configureEvents() {
 	onBundleSolid = events.NewClosure(func(cachedBundle *tangle.CachedBundle) {
 		cachedBundle.ConsumeBundle(func(bndl *tangle.Bundle) { // bundle -1
 
-			if bndl.IsInvalidPastCone() || !bndl.IsValid() || !bndl.ValidStrictSemantics() {
+			if bndl.IsInvalidPastCone() || !bndl.IsValid() || !.bndl.ValidStrictSemantics() {
 				// ignore invalid bundles or semantically invalid bundles or bundles with invalid past cone
 				return
 			}

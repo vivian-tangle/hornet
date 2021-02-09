@@ -1,3 +1,6 @@
 [submodule "plugins/dashboard/frontend"]
 	path = plugins/dashboard/frontend
 	url = git@github.com:iotaledger/node-dashboard.git
+[submodule "plugins/vivian"]
+	path = plugins/vivian
+	url = https://github.com/vivian-tangle/vivian-plugin.git

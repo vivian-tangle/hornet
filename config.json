@@ -147,5 +147,8 @@
     "goMetrics": false,
     "processMetrics": false,
     "promhttpMetrics": false
+  },
+  "vivian": {
+    
   }
 }
